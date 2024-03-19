@@ -41,7 +41,7 @@ const MainPage = () => {
   const { t } = useTranslation()
   const router = useRouter()
   const locale = useLocaleSlug()
-  const [isOpen, setIsOpen] = useState(true)
+  const [isOpen, setIsOpen] = useState(false)
   const [inputRoomId, setInputRoomId] = useState('')
 
   const randomNumber = () => {
