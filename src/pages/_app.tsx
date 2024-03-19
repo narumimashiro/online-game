@@ -8,7 +8,7 @@ import { RecoilRoot } from 'recoil'
 import { useLocaleSlug, I18NEXT_LOCALE } from '@/hooks/useLocaleSlug'
 
 // MyComponents
-import Layout from '@/components/Layout'
+import Layout from '@/components/layout'
 
 // i18next
 import { appWithTranslation, useTranslation } from 'next-i18next'
