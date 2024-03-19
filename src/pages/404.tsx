@@ -5,7 +5,7 @@ import { useTranslation } from 'next-i18next'
 import { Container, Typography, Button, Grid } from '@mui/material'
 
 // MyComponents
-import Meta from '@/components/Meta'
+import Meta from '@/components/meta'
 
 const NotFoundPage = () => {
   
