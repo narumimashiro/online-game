@@ -1,0 +1,62 @@
+@media (prefers-color-scheme: light)
+  html
+    background-color: #FFF
+
+@media (prefers-color-scheme: dark)
+  html
+    background-color: #000
+
+/* for Desktop Design */
+@media (min-width: 1280px)
+  body
+    padding: 0 5% 0 5%
+    height: 100vh
+  h1
+    font-size: 24px
+/* for Tablet Design */
+@media (min-width: 769px) and (max-width: 1279px)
+  body
+    width: 100%
+    height: 100svh
+  h1
+    font-size: 24px
+/* for Smartphone Design */
+@media (max-width: 768px)
+  body
+    width: 100%
+    height: 100svh
+  h1
+    font-size: 24px
+
+// common styles
+.flex-center
+  display: flex
+  justify-content: center
+  align-items: center
+
+.invisible-scroll
+  overflow-y: scroll
+  &::-webkit-scrollbar
+    display: none
+  scrollbar-width: none
+
+.text-base
+  font-size: 16px
+
+.text-xl
+  font-size: 20px
+
+.text-2xl
+  font-size: 24px
+
+.text-base-bold
+  font-size: 16px
+  font-weight: bold
+
+.text-xl-bold
+  font-size: 20px
+  font-weight: bold
+
+.text-2xl-bold
+  font-size: 24px
+  font-weight: bold

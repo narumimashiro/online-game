@@ -1,0 +1,42 @@
+$light-hover-color: #EEEEEE;
+$dark-hover-color: #252525;
+
+.webHorizon-light {
+  border-top: 1px solid rgba(0, 0, 0, 0.5);
+  width: 100%;
+}
+
+.webHorizon-dark {
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  width: 100%;
+}
+
+.invisible-scroll {
+  overflow-y: scroll;
+  &::-webkit-scrollbar {
+    display: none;
+  } 
+  scrollbar-width: none;
+}
+
+.button-light {
+  color: #000000;
+  background-color: #FFFFFF;
+  border: none;
+
+  &:hover,
+  &:focus {
+    background-color: $light-hover-color;
+  }
+}
+
+.button-dark {
+  color: #FFFFFF;
+  background-color: #000000;
+  border: none;
+
+  &:hover,
+  &:focus {
+    background-color: $dark-hover-color;
+  }
+}

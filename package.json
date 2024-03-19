@@ -1,0 +1,50 @@
+{
+  "name": "btw_project",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next build && next start",
+    "lint": "next eslint",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^5.15.1",
+    "@mui/material": "^5.14.18",
+    "axios": "^1.6.2",
+    "firebase": "^10.8.1",
+    "i18next": "^23.7.6",
+    "next": "14.0.3",
+    "next-i18next": "^15.0.0",
+    "react": "^18",
+    "react-dom": "^18",
+    "recoil": "^0.7.7",
+    "sass": "^1.69.5"
+  },
+  "devDependencies": {
+    "@storybook/addon-essentials": "^7.6.9",
+    "@storybook/addon-interactions": "^7.6.9",
+    "@storybook/addon-links": "^7.6.9",
+    "@storybook/addon-onboarding": "^1.0.10",
+    "@storybook/addon-viewport": "^7.6.10",
+    "@storybook/blocks": "^7.6.9",
+    "@storybook/nextjs": "^7.6.9",
+    "@storybook/react": "^7.6.9",
+    "@storybook/test": "^7.6.9",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "14.0.3",
+    "eslint-plugin-import": "^2.29.0",
+    "eslint-plugin-storybook": "^0.6.15",
+    "eslint-plugin-unused-imports": "^3.0.0",
+    "prettier": "^3.1.1",
+    "storybook": "^7.6.9",
+    "typescript": "^5"
+  }
+}

@@ -1,0 +1,43 @@
+.gameWrap
+  max-width: 960px
+  width: 100%
+  margin: auto
+
+  .boardWrap
+    display: grid
+    grid-template-columns: repeat(15, 1fr)
+    grid-template-rows: repeat(15, 1fr)
+    gap: 0px
+    width: 675px
+    margin: auto
+
+.square
+  width: 45px
+  height: 45px
+  box-shadow: 0 0 0 1px #d3d3d3
+
+  &:hover
+    background: #d3d3d3
+
+  .squareMaster
+    width: 35px
+    height: 35px
+    border-radius: 50%
+    background: black
+
+  .squarePlayer
+    width: 35px
+    height: 35px
+    border-radius: 50%
+    background: white
+    box-shadow: 0 0 0 1px black
+
+.overray
+  position: fixed
+  top: 0
+  left: 0
+  widht: 100vw
+  height: 100vh
+  z-index: 100
+  background-color: rgba(0, 0, 0, 0)
+  pointer-events: none
